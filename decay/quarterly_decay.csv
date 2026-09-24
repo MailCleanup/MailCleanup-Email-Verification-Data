@@ -1,0 +1,5 @@
+period_label,start_deliverable,end_deliverable,quarterly_decay_count,quarterly_decay_rate_pct,cumulative_decay_pct
+Q1 (months 1-3),912317,886890,25427,2.79,2.79
+Q2 (months 4-6),886890,843789,43101,4.86,7.51
+Q3 (months 7-9),843789,789248,54541,6.46,13.49
+Q4 (months 10-12),789248,695256,93992,11.91,23.79

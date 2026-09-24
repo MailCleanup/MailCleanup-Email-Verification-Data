@@ -1,0 +1,6 @@
+metric,value,unit
+common_isp_pct_of_total,67.28,% of total
+role_based_per_1000,14.92,"per 1,000 verified"
+disposable_per_1000,3.0,"per 1,000 verified"
+syntax_errors_per_1000,2.05,"per 1,000 verified"
+spam_traps_per_million,6.67,"per 1,000,000 verified"

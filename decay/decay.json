@@ -1,0 +1,200 @@
+{
+  "source": "MailCleanup Email List Decay Report V1 (single anonymized client, ~1M-address list, re-verified monthly)",
+  "tracked_cohort_size": 912317,
+  "tracking_window": "12 months, rolling",
+  "monthly_decay": [
+    {
+      "month": "2025-09",
+      "label": "baseline",
+      "deliverable_count": 912317,
+      "monthly_decay_count": null,
+      "cumulative_decay_pct": 0.0
+    },
+    {
+      "month": "2025-10",
+      "label": "month_1",
+      "deliverable_count": 899248,
+      "monthly_decay_count": 13069,
+      "cumulative_decay_pct": 1.43
+    },
+    {
+      "month": "2025-11",
+      "label": "month_2",
+      "deliverable_count": 886890,
+      "monthly_decay_count": 12358,
+      "cumulative_decay_pct": 2.79
+    },
+    {
+      "month": "2025-12",
+      "label": "month_3",
+      "deliverable_count": 873640,
+      "monthly_decay_count": 13250,
+      "cumulative_decay_pct": 4.24
+    },
+    {
+      "month": "2026-01",
+      "label": "month_4",
+      "deliverable_count": 858914,
+      "monthly_decay_count": 14726,
+      "cumulative_decay_pct": 5.85
+    },
+    {
+      "month": "2026-02",
+      "label": "month_5",
+      "deliverable_count": 843789,
+      "monthly_decay_count": 15125,
+      "cumulative_decay_pct": 7.51
+    },
+    {
+      "month": "2026-03",
+      "label": "month_6",
+      "deliverable_count": 827459,
+      "monthly_decay_count": 16330,
+      "cumulative_decay_pct": 9.3
+    },
+    {
+      "month": "2026-04",
+      "label": "month_7",
+      "deliverable_count": 809914,
+      "monthly_decay_count": 17545,
+      "cumulative_decay_pct": 11.22
+    },
+    {
+      "month": "2026-05",
+      "label": "month_8",
+      "deliverable_count": 789248,
+      "monthly_decay_count": 20666,
+      "cumulative_decay_pct": 13.49
+    },
+    {
+      "month": "2026-06",
+      "label": "month_9",
+      "deliverable_count": 760259,
+      "monthly_decay_count": 28989,
+      "cumulative_decay_pct": 16.67
+    },
+    {
+      "month": "2026-07",
+      "label": "month_10",
+      "deliverable_count": 729914,
+      "monthly_decay_count": 30345,
+      "cumulative_decay_pct": 19.99
+    },
+    {
+      "month": "2026-08",
+      "label": "month_11",
+      "deliverable_count": 695256,
+      "monthly_decay_count": 34658,
+      "cumulative_decay_pct": 23.79
+    }
+  ],
+  "quarterly_decay": [
+    {
+      "period_label": "Q1 (months 1-3)",
+      "start_deliverable": 912317,
+      "end_deliverable": 886890,
+      "quarterly_decay_count": 25427,
+      "quarterly_decay_rate_pct": 2.79,
+      "cumulative_decay_pct": 2.79
+    },
+    {
+      "period_label": "Q2 (months 4-6)",
+      "start_deliverable": 886890,
+      "end_deliverable": 843789,
+      "quarterly_decay_count": 43101,
+      "quarterly_decay_rate_pct": 4.86,
+      "cumulative_decay_pct": 7.51
+    },
+    {
+      "period_label": "Q3 (months 7-9)",
+      "start_deliverable": 843789,
+      "end_deliverable": 789248,
+      "quarterly_decay_count": 54541,
+      "quarterly_decay_rate_pct": 6.46,
+      "cumulative_decay_pct": 13.49
+    },
+    {
+      "period_label": "Q4 (months 10-12)",
+      "start_deliverable": 789248,
+      "end_deliverable": 695256,
+      "quarterly_decay_count": 93992,
+      "quarterly_decay_rate_pct": 11.91,
+      "cumulative_decay_pct": 23.79
+    }
+  ],
+  "decay_causes": [
+    {
+      "reason": "Mailbox deleted",
+      "count": 120056,
+      "pct_of_decayed_emails": 55.31
+    },
+    {
+      "reason": "Mailbox disabled",
+      "count": 32501,
+      "pct_of_decayed_emails": 14.97
+    },
+    {
+      "reason": "Domain expired",
+      "count": 22912,
+      "pct_of_decayed_emails": 10.56
+    },
+    {
+      "reason": "Domain became accept-all",
+      "count": 27467,
+      "pct_of_decayed_emails": 12.65
+    },
+    {
+      "reason": "Unknown SMTP response",
+      "count": 14125,
+      "pct_of_decayed_emails": 6.51
+    }
+  ],
+  "first_cleaning_composition": [
+    {
+      "status": "Deliverable",
+      "count": 912317,
+      "pct_of_original_list": 91.23
+    },
+    {
+      "status": "Undeliverable",
+      "count": 73519,
+      "pct_of_original_list": 7.35
+    },
+    {
+      "status": "Accept-All",
+      "count": 6313,
+      "pct_of_original_list": 0.63
+    },
+    {
+      "status": "Unknown",
+      "count": 7851,
+      "pct_of_original_list": 0.79
+    }
+  ],
+  "cohort_first_vs_last": [
+    {
+      "status": "Deliverable",
+      "after_first_cleaning": 912317,
+      "after_last_cleaning": 695256,
+      "change_within_cohort": -217061
+    },
+    {
+      "status": "Undeliverable",
+      "after_first_cleaning": 0,
+      "after_last_cleaning": 175469,
+      "change_within_cohort": 175469
+    },
+    {
+      "status": "Accept-All",
+      "after_first_cleaning": 0,
+      "after_last_cleaning": 27467,
+      "change_within_cohort": 27467
+    },
+    {
+      "status": "Unknown",
+      "after_first_cleaning": 0,
+      "after_last_cleaning": 14125,
+      "change_within_cohort": 14125
+    }
+  ]
+}

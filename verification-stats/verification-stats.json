@@ -1,0 +1,114 @@
+{
+  "source": "MailCleanup Email Quality Report 2026 (Corrected) \u2014 cross-client aggregate, percentages and rates only",
+  "note": "Absolute total-emails-verified counts are withheld from this release pending internal review; see README.",
+  "annual_summary_pct": [
+    {
+      "status": "Deliverable",
+      "pct_of_total_verified": 73.27
+    },
+    {
+      "status": "Undeliverable",
+      "pct_of_total_verified": 16.98
+    },
+    {
+      "status": "Accept-All",
+      "pct_of_total_verified": 7.32
+    },
+    {
+      "status": "Unknown",
+      "pct_of_total_verified": 2.43
+    }
+  ],
+  "recent_2month_summary_pct": [
+    {
+      "status": "Deliverable",
+      "pct_of_total_verified": 72.66
+    },
+    {
+      "status": "Undeliverable",
+      "pct_of_total_verified": 13.73
+    },
+    {
+      "status": "Accept-All",
+      "pct_of_total_verified": 7.48
+    },
+    {
+      "status": "Unknown",
+      "pct_of_total_verified": 6.13
+    }
+  ],
+  "annual_detection_rates": [
+    {
+      "metric": "common_isp_pct_of_total",
+      "value": 67.28,
+      "unit": "% of total"
+    },
+    {
+      "metric": "role_based_per_1000",
+      "value": 14.92,
+      "unit": "per 1,000 verified"
+    },
+    {
+      "metric": "disposable_per_1000",
+      "value": 3.0,
+      "unit": "per 1,000 verified"
+    },
+    {
+      "metric": "syntax_errors_per_1000",
+      "value": 2.05,
+      "unit": "per 1,000 verified"
+    },
+    {
+      "metric": "spam_traps_per_million",
+      "value": 6.67,
+      "unit": "per 1,000,000 verified"
+    }
+  ],
+  "recent_2month_detection_rates": [
+    {
+      "metric": "common_isp_pct_of_total",
+      "value": 67.28,
+      "unit": "% of total"
+    },
+    {
+      "metric": "role_based_per_1000",
+      "value": 13.68,
+      "unit": "per 1,000 verified"
+    },
+    {
+      "metric": "disposable_per_1000",
+      "value": 2.75,
+      "unit": "per 1,000 verified"
+    },
+    {
+      "metric": "syntax_errors_per_1000",
+      "value": 1.88,
+      "unit": "per 1,000 verified"
+    },
+    {
+      "metric": "spam_traps_per_million",
+      "value": 7.66,
+      "unit": "per 1,000,000 verified"
+    }
+  ],
+  "annual_ratios": [
+    {
+      "metric": "deliverable_to_undeliverable",
+      "value": "4.31 : 1"
+    },
+    {
+      "metric": "deliverable_to_risky",
+      "value": "2.74 : 1"
+    }
+  ],
+  "recent_2month_ratios": [
+    {
+      "metric": "deliverable_to_undeliverable",
+      "value": "5.29 : 1"
+    },
+    {
+      "metric": "deliverable_to_risky",
+      "value": "2.66 : 1"
+    }
+  ]
+}

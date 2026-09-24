@@ -1,0 +1,6 @@
+reason,count,pct_of_decayed_emails
+Mailbox deleted,120056,55.31
+Mailbox disabled,32501,14.97
+Domain expired,22912,10.56
+Domain became accept-all,27467,12.65
+Unknown SMTP response,14125,6.51
